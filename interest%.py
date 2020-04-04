@@ -16,7 +16,7 @@ b = c + 1
 # Переменная b для коректного отоброжения месяцев
 while dep <= 333000111999:
     if i >= b:
-        continue
+       break
 
     print(dep, f"[{i}]_Месяц")
     dep = dep * N + K
